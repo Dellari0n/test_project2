@@ -1,4 +1,6 @@
 .header{
+    background-color: #fff;
+    padding-bottom: 30px;
 
     .nav_top{
         background-color: var(--gray);
@@ -20,6 +22,8 @@
         }
     }
     .header__middle{
+        margin-top: 20px;
+
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -35,7 +39,6 @@
 
     .header_bottom{
         margin-top: 30px;
-        margin-bottom: 30px;
 
         .header_bottom__list{
             max-width: 680px;

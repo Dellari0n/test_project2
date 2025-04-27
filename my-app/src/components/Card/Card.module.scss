@@ -1,0 +1,21 @@
+.card{
+    background-color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+
+
+    .card__name{
+        margin-top: 20px;
+        font-style: 14px;
+        margin-bottom: 2px;
+    }
+    .card__desc{
+        font-style: 14px;
+        margin-bottom: 20px;
+    }
+    .card__price{
+        font-style: 21px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+}
