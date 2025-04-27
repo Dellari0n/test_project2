@@ -1,0 +1,37 @@
+:root {
+  --gray: #EFEFEF;
+  --pink: #F13C6E;
+  --dark: #333333;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x:hidden;
+}
+
+.container{
+  max-width: 1110px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul, li, ol {
+  list-style:none;
+}
+

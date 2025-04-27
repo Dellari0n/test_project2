@@ -1,0 +1,27 @@
+.info{
+    background-image: url('/img/bg.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 604px; 
+    width: 100%; 
+
+    .info_content{
+        max-width: 308px;
+        padding: 192px 0;
+
+        .info_content__title{
+            font-style: 48px;
+            font-weight: bold;
+            margin-bottom: 50px;
+            color: #fff;
+        }
+
+        .info_content__text{
+            font-style: 14px;
+            line-height: 1.5;
+            color: #fff;
+            margin-bottom: 50px;
+        }
+    }
+}
